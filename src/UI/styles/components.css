@@ -1,0 +1,257 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav li button {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #144477;
+    transition: color 0.3s ease;
+  }
+  
+  .nav li button:hover {
+    color: #144477;
+  }
+  
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-content {
+    max-width: 70%;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #144477;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #144477;
+  }
+  
+  .hero img {
+    max-width: 40%;
+    border-radius: 5px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10%;
+    background-color: #fff;
+  }
+  
+  .feature-card {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 22%;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .feature-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .feature-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #144477;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+  
+  .feature-card a:hover {
+    color: #144477;
+  }
+  
+  .testimonials {
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .testimonial {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 30%;
+  }
+  
+  .testimonial p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial h4 {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .footer {
+    padding: 20px 10%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+  
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #144477;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px;
+    flex: 1 1 300px;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimonial-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .testimonial-card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .testimonial-card span {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #144477;
+  }
+  .header-btm{
+  background-color: #144477;
+  text-align: center;
+  margin-left: 10px;
+  height: 40px;
+  width: 120px;
+  border-radius: 5%;
+  color: #ffffff;
+}
+/*? ModalBase */
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
